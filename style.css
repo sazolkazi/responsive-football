@@ -235,6 +235,12 @@ main {
     border-radius: 10px;
 }
 
+.image img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+    border-radius: 2px;
+}
+
 
 /*=================== This is gallery CSS end ======================== */
 
