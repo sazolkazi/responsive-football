@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #E6E6E6;
+    background-color: #fffdfd;
 }
 
 main {
@@ -102,7 +102,7 @@ main {
     padding: 20px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0px 0px 11px 3px #0000002e;
+    box-shadow: 0px 0px 40px 0px #0000003b;
     border-radius: 5px;
 }
 
@@ -190,3 +190,33 @@ main {
 
 
 /*=================== This is top banner CSS end ======================== */
+
+
+/*=================== This is footer CSS Start ======================== */
+
+.footer-detales {
+    width: 500px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.footer-img img {
+    width: 484px;
+    height: 110px;
+}
+
+.footer-social-icon {
+    text-align: center;
+}
+
+.footer-social-icon img {
+    height: 32px;
+    width: 32px;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+
+/*=================== This is footer CSS end ======================== */
