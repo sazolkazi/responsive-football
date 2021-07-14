@@ -1,0 +1,192 @@
+/* google-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Body-aria */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E6E6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 1440px;
+}
+
+
+/*=================== This is top banner CSS start ======================== */
+
+.top-banner {
+    height: 677px;
+    background-color: #2D25A0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 53px;
+}
+
+.banner-header {
+    margin-left: 140px;
+}
+
+.banner-header h1 {
+    margin: 0 0;
+    font-size: 64px;
+    color: #fff;
+    line-height: 80px;
+}
+
+.banner-header button {
+    background: #E02C6D;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+.banner-header button:hover {
+    background: #772644;
+    transition: .4s;
+}
+
+.banner-header button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.banner-header button a i {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.banner-header button:hover a {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+.banner-img {}
+
+.banner-img img {
+    width: 556px;
+    height: 438px;
+}
+
+
+/*=================== This is top banner CSS end ======================== */
+
+
+/*=================== This is Player CSS Start ======================== */
+
+.all-players {
+    width: 1050px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.player {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 3px #0000002e;
+    border-radius: 5px;
+}
+
+.player-img img {
+    width: 300px;
+    height: 256px;
+    border-radius: 4px;
+}
+
+.player-detales {}
+
+.player-detales h1 {
+    font-size: 28px;
+    margin: 2px 0;
+}
+
+.player-detales p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+
+
+/*=================== This is Player CSS end ======================== */
+
+
+/*================== This is highlights CSS start ======================== */
+
+.highlights-banner {
+    height: 677px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 53px;
+}
+
+.highlights-banner-header {
+    margin-left: 140px;
+}
+
+.highlights-banner-header h1 {
+    margin: 0 0;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+    line-height: 80px;
+}
+
+.highlights-banner-header button {
+    background: #E02C6D;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 6px;
+}
+
+.highlights-banner-header button:hover {
+    background: #772644;
+    transition: .4s;
+}
+
+.highlights-banner-header button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.highlights-banner-header button a i {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.highlights-banner-header button:hover a {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+.highlights-banner-img {}
+
+.highlights-banner-img img {
+    width: 556px;
+    height: 438px;
+}
+
+
+/*=================== This is top banner CSS end ======================== */
