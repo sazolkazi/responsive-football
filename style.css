@@ -52,7 +52,7 @@ main {
 }
 
 .banner-header button:hover {
-    background: #772644;
+    background: #d42727d8;
     transition: .4s;
 }
 
@@ -72,8 +72,6 @@ main {
     margin-left: 4px;
     transition: .5s;
 }
-
-.banner-img {}
 
 .banner-img img {
     width: 556px;
@@ -96,6 +94,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
 .player {
@@ -111,8 +110,6 @@ main {
     height: 256px;
     border-radius: 4px;
 }
-
-.player-detales {}
 
 .player-detales h1 {
     font-size: 28px;
@@ -138,18 +135,21 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-bottom: 53px;
-}
-
-.highlights-banner-header {
-    margin-left: 140px;
+    width: 1050px;
+    margin: auto;
 }
 
 .highlights-banner-header h1 {
     margin: 0 0;
-    font-size: 64px;
+    font-size: 47px;
     color: rgb(0, 0, 0);
-    line-height: 80px;
+    line-height: 60px;
+}
+
+.highlights-banner-header p {
+    font-size: 16px;
+    line-height: 35px;
+    padding-right: 126px;
 }
 
 .highlights-banner-header button {
@@ -160,7 +160,7 @@ main {
 }
 
 .highlights-banner-header button:hover {
-    background: #772644;
+    background: #e4288f;
     transition: .4s;
 }
 
@@ -181,15 +181,119 @@ main {
     transition: .5s;
 }
 
-.highlights-banner-img {}
-
 .highlights-banner-img img {
     width: 556px;
     height: 438px;
 }
 
 
-/*=================== This is top banner CSS end ======================== */
+/*=================== This is Highlights CSS end ======================== */
+
+
+/*=================== This is gallery CSS start ======================== */
+
+.all-images {
+    width: 1050px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.all-images h1 {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.gallery-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 30px;
+    margin-bottom: 12px;
+}
+
+.image {
+    background: #d0d0d096;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 2px rgb(210 82 82 / 51%);
+}
+
+.image:hover {
+    background: #ebebebe8;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.281);
+    transition: .5s;
+}
+
+.image img {
+    height: 212px;
+    width: 333px;
+    border-radius: 10px;
+}
+
+
+/*=================== This is gallery CSS end ======================== */
+
+
+/*=================== This is News CSS start ======================== */
+
+.all-news {
+    width: 1050px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.all-news h1 {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    margin-bottom: 12px;
+}
+
+article {
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px #0000003b;
+}
+
+.news-img img {
+    width: 474px;
+    height: 235px;
+}
+
+.news-heading p {
+    margin: 4px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.news-heading span {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #464545;
+}
+
+.news-heading h1 {
+    font-size: 18px;
+    margin: 2px 0;
+    font-weight: 700;
+}
+
+
+/*=================== This is News CSS end ======================== */
 
 
 /*=================== This is footer CSS Start ======================== */
