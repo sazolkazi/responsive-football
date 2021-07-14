@@ -212,6 +212,7 @@ main {
 .footer-social-icon img {
     height: 32px;
     width: 32px;
+    margin-right: 13px;
 }
 
 .footer-copyright {
